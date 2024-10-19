@@ -71,7 +71,7 @@
     - Advanced logic, looping through data, and dynamic DOM updates.
     ```javascript
     tags.forEach(tag => {
-        // logic here
+        // logic
     });
     ```
   - File: `code.js`, Line: 1-5
@@ -79,7 +79,7 @@
     ```javascript
     class Cat {
         constructor() {
-            // constructor code here
+            // constructor
         }
     }
     ```
