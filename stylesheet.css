@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #1a1a1a;
+	color: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	color: #66d9ff;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+select {
+	font-size: 1.1em;
+	padding: 8px 12px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #66d9ff;
+	border-radius: 4px;
+	background-color: #333;
+	color: #e0e0e0;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 0.3s;
+}
+
+select:hover, select:focus {
+	border-color: #3399cc;
+}
+
+button {
+	font-size: 1.1em;
+	padding: 10px 16px;
+	border: 2px solid #66d9ff;
+	border-radius: 4px;
+	background-color: #66d9ff;
+	color: #1a1a1a;
+	cursor: pointer;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+	background-color: #3399cc;
+	border-color: #3399cc;
+}
+
+img#cats {
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	select, button {
+		font-size: 1em;
+		padding: 8px 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 1.8em;
+	}
+
+	select, button {
+		font-size: 0.9em;
+		padding: 6px 10px;
+	}
+}
