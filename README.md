@@ -55,12 +55,12 @@
 
 - **JavaScript:**
   - File: `code.js`, Line: 40
-    - **Grading Criteria:** Simple interactions (like alerts on button click).
+    - Simple interactions (like alerts on button click).
     ```javascript
     return alert('Already getting a cat');
     ```
   - File: `code.js`, Line: 50-53
-    - **Grading Criteria:** Multiple event listeners and basic DOM manipulations.
+    - Multiple event listeners and basic DOM manipulations.
     ```javascript
     document.getElementById('getCat').addEventListener('click', () => cats.getCat());
     ```
